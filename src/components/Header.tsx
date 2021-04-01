@@ -7,7 +7,16 @@ import {
 
 export function Header() {
   return (
-    <Flex as="header" w="100%" maxW={1480} h="20" mt="4" align="center" px="6">
+    <Flex
+      as="header"
+      w="100%"
+      maxW={1480}
+      h="20"
+      mt="4"
+      align="center"
+      px="6"
+      mx="auto"
+    >
       <Text fontSize="3xl" fontWeight="bold" letterSpacing="tight" w="64">
         dashgo
         <Text as="span" color="blue.500" ml="1">
